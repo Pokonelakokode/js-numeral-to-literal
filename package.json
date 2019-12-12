@@ -1,0 +1,14 @@
+{
+  "name": "js-numeral-converter",
+  "version": "1.0.0",
+  "description": "JS converter from numeral to literal",
+  "main": "index.js",
+  "author": "Pokonelakokode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.7.3"
+  }
+}
