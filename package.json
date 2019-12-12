@@ -5,9 +5,16 @@
   "main": "index.js",
   "author": "Pokonelakokode",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc && npm run start",
+    "test": "npm run test",
+    "build": "tsc",
+    "watch-ts": "tsc -w"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
     "ts-lint": "^4.5.1",
     "typescript": "^3.7.3"
   }
