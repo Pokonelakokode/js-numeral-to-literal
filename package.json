@@ -6,16 +6,21 @@
   "author": "Pokonelakokode",
   "license": "MIT",
   "scripts": {
-    "start": "tsc && npm run start",
+    "start": "webpack-dev-server --config webpack.common.js --mode development",
     "test": "jest",
-    "build": "tsc",
+    "build-prod": "webpack -p --config webpack.common.js --mode production",
     "watch-ts": "tsc -w"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.2.0",
-    "ts-lint": "^4.5.1",
-    "typescript": "^3.7.3"
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
