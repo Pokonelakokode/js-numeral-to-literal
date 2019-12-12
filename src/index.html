@@ -12,6 +12,9 @@
         width: 100%;
         padding: 10px;
         border-radius: 5px;
+        webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
     #LiteralOutput {
         text-align: center;
@@ -19,7 +22,7 @@
 </style>
 <div id="app">
 
-    <input id="NumberInput" placeholder="Enter a number"/>
+    <input id="NumberInput" type="number" placeholder="Enter a number"/>
     <h1 id="LiteralOutput"></h1>
 </div>
 </body>
